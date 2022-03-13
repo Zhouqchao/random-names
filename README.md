@@ -1,3 +1,3 @@
 # random-names
 
-For all your random character needs. --made by milestone
+For all your random character needs. --made by milestone.
