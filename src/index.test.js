@@ -1,13 +1,13 @@
 import {expect} from 'chai'
-import starWarsNames from '.'
+import randomNames from './index'
 
-describe('starwars-names', () => {
+describe('random-names', () => {
   it('should have a list of all available names', () => {
-    expect(starWarsNames.all).to.satisfy(isArrayOfStrings)
+    expect(randomNames.all).to.satisfy(isArrayOfStrings)
   })
 
   it('should allow me to get a random name from the list', () => {
-    expect(starWarsNames.random()).to.satisfy(isIncludedIn(starWarsNames.all))
+    expect(randomNames.random()).to.satisfy(isIncludedIn(randomNames.all))
   })
 })
 
