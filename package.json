@@ -15,7 +15,7 @@
     "report-coverage": "codecov",
     "lint": "eslint src",
     "validate": "npm-run-all --parallel test lint build",
-    "release": "semantic-release pre && npm publish && semantic-release post"
+    "release": "semantic-release"
   },
   "repository": {
     "type": "git",
