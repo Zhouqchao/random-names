@@ -11,7 +11,7 @@
     "build:umd.min": "webpack --output-filename index.umd.min.js -p",
     "test": "cross-env NODE_ENV=test nyc mocha",
     "watch:test": "mocha --watch",
-    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "report-coverage": "codecov",
     "lint": "eslint src",
     "validate": "npm-run-all --parallel test lint build"
   },
